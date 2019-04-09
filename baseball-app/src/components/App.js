@@ -10,7 +10,7 @@ export const actions = ["strike", "ball", "hit", "foul"].reduce(
 
 const { strike, ball, hit, foul } = actions
 
-const initialState = {
+export const initialState = {
   balls: 0,
   strikes: 0
 }
